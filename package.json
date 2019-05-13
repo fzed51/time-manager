@@ -1,0 +1,19 @@
+{
+  "name": "time-manager",
+  "version": "1.0.0",
+  "description": "application web de gestion de temp Pomodoro timer like",
+  "main": "./src/index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mod development -d --hot --open",
+    "build": "webpack --mod production"
+  },
+  "keywords": [
+    "timer"
+  ],
+  "author": "Fabien Sanchez <fzed51+code@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@fzed51/webpack-config": "^2.1.0"
+  }
+}
