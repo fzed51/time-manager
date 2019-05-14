@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Clock } from "./clock";
+import { PomodoroManager } from "./pomodoro-manager";
 
 interface iAppProps {}
 
@@ -14,6 +15,7 @@ export class App extends React.Component<iAppProps, iAppState> {
     return (
       <div className="timer-manager">
         <Clock />
+        <PomodoroManager/>
       </div>
     );
   }
