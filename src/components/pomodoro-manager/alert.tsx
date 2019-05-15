@@ -1,4 +1,9 @@
-import * as React from 'react';
+import * as React from "react";
+
+/**
+ * Pour jour une alerte :
+ * https://medium.com/@jerrysbusiness/playing-a-sound-file-in-a-react-project-bd0ad079ad93
+ */
 
 interface iAlertProps {}
 
