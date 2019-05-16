@@ -14,6 +14,7 @@
   "author": "Fabien Sanchez <fzed51+code@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@fzed51/webpack-config": "^2.1.0"
+    "@fzed51/webpack-config": "^2.1.0",
+    "react-sound": "^1.2.0"
   }
 }
