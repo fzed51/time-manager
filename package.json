@@ -5,8 +5,8 @@
   "main": "./src/index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --mod development -d --hot --open",
-    "build": "webpack --mod production"
+    "dev": "webpack-dev-server --mode development -d --hot --open",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "timer"

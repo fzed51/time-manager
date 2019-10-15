@@ -15,7 +15,7 @@ export class App extends React.Component<iAppProps, iAppState> {
     return (
       <div className="timer-manager">
         <Clock />
-        <PomodoroManager/>
+        <PomodoroManager />
       </div>
     );
   }
